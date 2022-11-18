@@ -1,5 +1,11 @@
+<!--
+ * @Date: 2022-11-18 16:20:18
+ * @LastEditors: Ciel@cielx.xyz
+ * @LastEditTime: 2022-11-18 16:29:55
+ * @FilePath: \���ļ�g:\temp\tbautosign\README.md
+-->
 # tbautosign
-github actions 贴吧自动签到 nodejs 版
+github actions 贴吧�?动�?�到 nodejs �?
 
 ## 用法
 
@@ -7,25 +13,25 @@ github actions 贴吧自动签到 nodejs 版
 
 ## 2.获取 BDUSS
 
-网页中登录贴吧，然后打开『开发者工具』，找到 BDUSS  
+网页�?登录贴吧，然后打开『开发者工具』，找到 BDUSS  
 
 ```
 Application->Storage->Cookies
 ```
 
-## 3.将 BDUSS 添加到仓库的 Secrets 中
+## 3.�? BDUSS 添加到仓库的 Secrets �?
 
-多用户按如下格式添加。  
+多用户按如下格式添加�?  
 
 ```
 BDUSS1&&BDUSS2
 ```
 
-## 4.开启 actions
+## 4.开�? actions
 
-默认actions是处于禁止的状态，需要手动开启。
+默�??actions�?处于禁�?�的状态，需要手动开�?�?
 
-## 5.运行 actions
+## 56.运�?? actions
 
-- 自己提交`push`  
-- 每天早上十一点和下午九点将会进行签到  
+- �?己提�?`push`  
+- 每天早上十一点和下午九点将会进�?��?�到  
